@@ -1,4 +1,4 @@
-##🛒 Amazon Clone
+## 🛒 Amazon Clone
 A front-end clone of the Amazon website built using HTML and CSS.
 Replicates the core UI of Amazon including the navbar, hero section,
 product grid, and footer.
