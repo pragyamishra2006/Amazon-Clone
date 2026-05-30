@@ -10,6 +10,7 @@ https://pragyamishra2006.github.io/Amazon-Clone
 
 ## 📸 Screenshots
 <img width="941" height="421" alt="{186A1BFE-850F-4A7D-BEF9-2158E87A7E7B}" src="https://github.com/user-attachments/assets/644d3843-1529-4e8b-8bc5-d894c90bfacf" />
+<img width="941" height="396" alt="{AFEA3029-BF4C-4A9F-92F6-B6EA4747A1A3}" src="https://github.com/user-attachments/assets/8efd8013-62be-49bc-8481-d1e68afa660f" />
 
 
 ## 🛠️ Built With
