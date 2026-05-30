@@ -1,0 +1,413 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+/* ===========================
+       TOP NAVBAR
+=========================== */
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    gap: 18px;
+}
+
+.border {
+    border: 1px solid transparent;
+    padding: 4px;
+}
+
+.border:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* Logo */
+.nav-logo img {
+    width: 100px;
+    margin-top: 5px;
+}
+
+/* Location */
+.nav-location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.small {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.nav-location h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Search Bar */
+.nav-search {
+    flex: 1;
+    display: flex;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nav-search select {
+    width: 60px;
+    border: none;
+    background-color: #e6e6e6;
+    padding-left: 5px;
+    outline: none;
+}
+
+.nav-search input {
+    flex: 1;
+    border: none;
+    padding: 0 12px;
+    font-size: 15px;
+    outline: none;
+}
+
+.nav-search button {
+    width: 50px;
+    background: #febd69;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Language */
+.nav-lang {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nav-lang img {
+    width: 20px;
+}
+/* --- HERO BANNER (CENTER TEXT) --- */
+.bf-hero {
+    width: 100%;
+    background: linear-gradient(90deg, #ff6a00, #ff8d00);
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.bf-hero-content h2 {
+    font-size: 26px;
+}
+.bf-hero-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.bf-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 15px 0;
+}
+
+.offer-text {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* --- CARDS SECTION (TEXT ONLY) --- */
+.bf-cards {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    background: #f4f4f4;
+}
+
+.bf-box {
+    background: white;
+    padding: 25px;
+    width: 260px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.bf-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bf-box p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.bf-box a {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 14px;
+}
+.bf-box a:hover {
+    text-decoration: underline;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.feature-item {}
+
+.feature-box {
+    display: inline-block;
+    padding: 6px 14px;   /* small padding */
+    border: 1px solid #ccc;  /* slim border */
+    border-radius: 8px;   /* slightly rounded */
+    font-size: 18px;
+    background: #ffffff;
+}
+
+
+
+/* Account + Orders */
+.nav-account, .nav-orders {
+    line-height: 15px;
+}
+
+.nav-account h4,
+.nav-orders h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Cart */
+.nav-cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-cart i {
+    font-size: 28px;
+}
+
+/* ===========================
+       SECOND MENU BAR
+=========================== */
+
+.menu-bar {
+    height: 45px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 25px;
+    font-size: 14px;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 4px 6px;
+}
+
+.menu-item:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/* ===========================
+       HERO SECTION
+=========================== */
+
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+/* ===========================
+       SHOP BOXES
+=========================== */
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+.box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.box img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.box a {
+    font-size: 14px;
+    color: #007185;
+    text-decoration: none;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+       FOOTER
+=========================== */
+
+/* Footer Container */
+.amazon-footer {
+    background-color: #232f3e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+}
+
+/* Back to Top */
+.back-to-top {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background: #37475a;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.back-to-top:hover {
+    background: #44566c;
+}
+
+/* Main Footer Grid */
+.footer-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 80px;
+    gap: 20px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    display: block;
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Locale and Logo */
+.footer-locale {
+    border-top: 1px solid #3a4553;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-logo {
+    width: 100px;
+    filter: brightness(0) invert(1);
+}
+
+.locale-options button {
+    background: #303f4f;
+    border: 1px solid #646f79;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+}
+.locale-options button:hover {
+    background: #3f4d5a;
+}
+
+/* Bottom Footer */
+.footer-bottom {
+    border-top: 1px solid #3a4553;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.legal {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-main {
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-main {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+
