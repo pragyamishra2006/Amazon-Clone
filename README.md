@@ -16,7 +16,7 @@ https://pragyamishra2006.github.io/Amazon-Clone
 ## 🛠️ Built With
 - HTML5
 - CSS3
-
+- JS
 
 ## ✨ Features
 - Amazon-style navigation bar with search
